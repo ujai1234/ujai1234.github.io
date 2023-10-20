@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My Css -->
     <link rel="stylesheet" href="style.css" />
 
@@ -65,11 +68,15 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quas ut alias hic tenetur? Ratione totam provident voluptate sunt laborum.</p>
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
+            <p>Hi, i am Muhammad Hudzaifah Nasrullah a master of informatics student with a concentration in business intelligence at raharja university. my undergraduate education is bachelor of electrical engineering. .</p>
           </div>
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo in illum, ratione, nostrum excepturi saepe voluptates vel iure quidem, quis vero nam sunt doloremque fugiat!</p>
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+            <p>
+              I work as a freelance data scientist and digital marketer. I am also interested in AI and ML, especially computer vision in Deep Learning. Previously, I worked on many IoT projects with Arduino and wrote a conference journal
+              for my education that was published in IEEE. I am currently exploring cloud computing. I took the AWS re/start and passed the AWS CCP exam. In my spare time I teach private tahsinul-quran because I was given the opportunity to
+              have a sanad al-quran.
+            </p>
           </div>
         </div>
       </div>
@@ -93,18 +100,18 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-down" data-aos-duration="500">
               <img src="img/projects/common word.png" class="card-img-top" alt="Project 1" />
               <div class="card-body">
                 <h5 class="card-title">Customer Reviews Airline Analysis</h5>
                 <p class="card-text">* Completed a simulation focussing on how data science is a critical component of British Airways success</p>
                 <p class="card-text">* Scraped and analyzed customer review data to uncover findings</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="https://github.com/ujai1234/British_Airways_Review_Analysis" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="100">
               <img src="img/projects/custoemr.jpg" class="card-img-top" alt="Project 2" />
               <div class="card-body">
                 <h5 class="card-title">Customer Booking Behavior Classification</h5>
@@ -115,7 +122,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="200">
               <img src="img/projects/car.jpg" class="card-img-top" alt="Project 3" />
               <div class="card-body">
                 <h5 class="card-title">Car Price Prediction</h5>
@@ -126,7 +133,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="300">
               <img src="img/projects/sales.jpg" class="card-img-top" alt="Project 4" />
               <div class="card-body">
                 <h5 class="card-title">Sales Report Analysis</h5>
@@ -137,7 +144,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="400">
               <img src="img/projects/air.jpg" class="card-img-top" alt="Project 5" />
               <div class="card-body">
                 <h5 class="card-title">Air Quality Prediction</h5>
@@ -149,7 +156,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="500">
               <img src="img/projects/youtube.jpg" class="card-img-top" alt="Project 6" />
               <div class="card-body">
                 <h5 class="card-title">Youtube API Analysis</h5>
@@ -229,6 +236,13 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true, // whether animation should happen only once - while scrolling down
+      });
+    </script>
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbz9bte2UHTBq6McSlg7FQbcIYd962jibpWnzGgS_2N7d_Ag8UU-_KL4DwQfNRBfkF_oNQ/exec';
